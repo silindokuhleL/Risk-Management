@@ -104,7 +104,7 @@ class RiskOwnerController extends Controller
         }
 
         $riskOwnerName = $riskOwner->name; // Get the name before deleting the record
-//        $riskOwner->delete();
+        $riskOwner->delete();
 
         return redirect()->route('risk-owners.index')->with('success', "Risk owner '$riskOwnerName' has been deleted successfully.");
     }
