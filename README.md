@@ -17,5 +17,5 @@ RISK MANAGEMENT SYSTEM SETUP GUIDE
 
 Additional Information:
 -----------------------
-The system utilizes two tables: riskowners and roles.
-The user table is not used to avoid complexities related to password handling, as the focus is solely on basic CRUD operations.
+- The system utilizes two tables: riskowners and roles.
+- The user table is not used to avoid complexities related to password handling, as the focus is solely on basic CRUD operations.
